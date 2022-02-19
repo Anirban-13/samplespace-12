@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML Cheat Sheet</title>
+</head>
+
+<body>
+    <!-- inline level : span,img,a ,label,input   : these take the full width available -->
+    <!--block: div,h1-h6,p,form    : these take only the necessary width available-->
+    <a href="http://google.com" target="_blank">Lorem ipsum dolor sit amet.</a>
+    <!-- the target is added so that the link opens in a new webpage and not in the same web page -->
+    <!-- <tagname attributename="attributevalue">content</tagname>     all tags can have attributes, and these attributes are placed within the start tag , these tags carry information about an element-->
+    <form action="backend.php" method="post">
+        <div>
+            <label>first name</label>
+            <input type="text" name="firstname">
+        </div>
+        <br>
+        <div>
+            <label>lastname </label>
+            <input type="text" name="lastname" placeholder="enter name">
+            <!-- placeholder helps in putting a default text in the answer box and when the user clicks on the box to write the text automatically vanishes -->
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label>message</label>
+            <textarea name="message"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>gender</label>
+            <select name="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>
+            </select>
+
+        </div>
+        <br>
+        <div>
+            <label>age</label>
+            <input type="number" name="age" value="30">
+        </div>
+        <br>
+        <div>
+            <label>birthday</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+
+
+        <input type="submit" name="submit" value="submit">
+
+        <br>
+
+
+    </form>
+    <!-- button -->
+    <button click="some botton">click me</button>
+    <a
+        href="https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2FtcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80">
+        <img src="https://images.unsplash.com/photo-1579353977828-2a4eab540b9a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2FtcGxlfGVufDB8fDB8fA%3D%3D&w=1000&q=80"
+            alt="image did not load">
+    </a>
+    <!-- quotations -->
+    <blockquote site="http://google.com">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nisi, eligendi alias qui eum iure tenetur recusandae! Quam, aperiam ipsa sapiente debitis fugit minima aliquam ex! Doloremque voluptatem corporis fuga consequatur non! Cumque in perferendis autem sunt mollitia, amet porro voluptatibus, iure praesentium, iusto quas.
+    </blockquote>
+    <p> the <abbr title="world wide web">www</abbr>is awesome</p>
+    <!-- the abbr tag just puts a dashed underline -->
+    <p> <cite>html </cite>crash course</p>
+    <!-- the cite tag italisizes the text -->
+</body>
+
+</html>
